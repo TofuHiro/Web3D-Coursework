@@ -1,0 +1,37 @@
+{
+    "brand_title": "Coca Cola Revitalize",
+    "brand_foundery": "Founded by Dr John S Pemberton",
+    "brand_intro_text": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.",
+    "home_background_image": "\"assets/images/main_3D.png\"",
+
+    "about_title": "About Us",
+    "about_text": "The Coca-Cola Company produces concentrate, which is then sold to licensed Coca-Cola bottlers throughout the world. The bottlers, who hold exclusive territory contracts with the company, produce the finished product in cans and bottles from the concentrate, in combination with filtered water and sweeteners. A typical 12-US-fluid-ounce (350 ml) can contains 38 grams (1.3 oz) of sugar (usually in the form of high-fructose corn syrup in North America). The bottlers then sell, distribute, and merchandise Coca-Cola to retail stores, restaurants, and vending machines throughout the world. The Coca-Cola Company also sells concentrate for soda fountains of major restaurants and foodservice distributors.",
+    
+    "statement_originality": "These web pages are submitted as part requirement for the degree of Games and Multimedia Environments BSc at the University of Sussex. They are the product of my own labour except where indicated in the web page content. These web pages or contents may be freely copied and distributed provided the source is acknowledged",
+    
+    "references": [{
+        "text": "Parallax Scroll by Rellax. Available at: ", 
+        "url": "https://dixonandmoe.com/rellax/"
+    },{
+        "text": "Image Modal by w3schools. Available at: ", 
+        "url": "https://www.w3schools.com/howto/howto_css_modal_images.asp"
+    },{
+        "text": "Formatting function by gpvos (2011). Available at: ", 
+        "url": "https://stackoverflow.com/questions/1038746/equivalent-of-string-format-in-jquery"
+    },{
+        "text": "Model Viewer by Google. Available at: ", 
+        "url": "https://modelviewer.dev/"
+    },{
+        "text": "Shanghai Bund by Greg Zaal (2019). Available at: ", 
+        "url": "https://polyhaven.com/a/shanghai_bund"
+    },{
+        "text": "Aft lounge by Greg Zaal (2019). Available at: ", 
+        "url": "https://polyhaven.com/a/aft_lounge"
+    },{
+        "text": "Industrial Sunset (Pure Sky) by Jarod Guest and Sergej Majboroda (2023). Available at: ", 
+        "url": "https://polyhaven.com/a/industrial_sunset_puresky"
+    },{
+        "text": "Brown Photostudio 02 by Sergej Majboroda (2022). Available at: ", 
+        "url": "https://polyhaven.com/a/brown_photostudio_02"
+    }]
+}
