@@ -411,7 +411,8 @@ X3D, x3d {
 #modal_content {
     margin: auto;
     display: block;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     background-color: rgb(173, 173, 173);
 }
 
