@@ -194,8 +194,8 @@
             </div>
             
             <div class="row col">
-              <!-- Render Modes --> 
               <div class="col">
+                <!-- Render Modes --> 
                 <h5>Render Mode</h5>
                 <div class="form-check">
                   <input onclick="changeRender(0)" class="form-check-input" type="radio" name="renderRadios" id="renderRadios1" value="option1" checked>
@@ -241,7 +241,6 @@
               </div>
             </div>
           </div>
-          
         </div>  
           
         <br>
@@ -299,7 +298,6 @@
               </div>
             </div>
           </div>
-          
         </div>
 
         <br>
@@ -348,7 +346,7 @@
     <script src="js/jquery-3.6.3.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/x3dom-full.js"></script>
+    <script src="js/x3dom.js"></script>
     <script src="js/rellax.min.js"></script>
     <script>var rellax = new Rellax('.rellax');</script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>

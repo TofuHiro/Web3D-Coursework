@@ -102,6 +102,11 @@ body.dark #drink_info {
     height: 90vh;
 }
 
+.modal a, 
+.modal p {
+    word-wrap: break-word;
+}
+
 
 /* Logo */
 

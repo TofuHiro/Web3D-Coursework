@@ -100,7 +100,7 @@ $(document).on("click", ".glTF_button", function() {
     hideNavbar();
 });
 
-//Hide collapsibles on select
+//Hide collapsibles on select e.g drink selection
 function hideDrinkSelection() {
     $("#collapseDrinks").removeClass("show");
 }

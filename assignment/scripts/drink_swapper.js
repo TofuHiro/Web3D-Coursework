@@ -49,6 +49,7 @@ $(document).on("click", ".coke_button", switchToCola);
 function switchToCola() {
     currentDrinkId = 0;
     resetBackground();
+
     switchBackground("coke");
     switchDrinkContent("CocaCola");
     switchModel("0");
@@ -57,6 +58,7 @@ $(document).on("click", ".diet_coke_button", switchToDiet);
 function switchToDiet() {
     currentDrinkId = 1;
     resetBackground();
+
     switchBackground("diet_coke");
     switchDrinkContent("DietCoke");
     switchModel("1");
@@ -65,6 +67,7 @@ $(document).on("click", ".drpepper_button", switchToPepper);
 function switchToPepper() {
     currentDrinkId = 2;
     resetBackground();
+
     switchBackground("drpepper");
     switchDrinkContent("DrPepper");
     switchModel("2");
@@ -73,6 +76,7 @@ $(document).on("click", ".fanta_button", switchToFanta);
 function switchToFanta() {
     currentDrinkId = 3;
     resetBackground();
+
     switchBackground("fanta");
     switchDrinkContent("Fanta");
     switchModel("3");
@@ -81,6 +85,7 @@ $(document).on("click", ".oasis_button", switchToOasis);
 function switchToOasis() {
     currentDrinkId = 4;
     resetBackground();
+
     switchBackground("oasis");
     switchDrinkContent("Oasis");
     switchModel("4");
@@ -89,11 +94,11 @@ $(document).on("click", ".pepsi_button", switchToSprite);
 function switchToSprite() {
     currentDrinkId = 5;
     resetBackground();
+
     switchBackground("sprite");
     switchDrinkContent("Sprite");
     switchModel("5");
 };
-
 
 
 //Switches background colour
@@ -128,7 +133,6 @@ function switchDrinkContent(drink_name) {
     $.getJSON("index.php/apiGet" + drink_name + "ModelInfo", function(data) {
         //x3d
         $("#x3d_model_info").children("p").html(data.x3d_info);
-        //Set in switchModel function
         $("#x3d_model_info").children("h3").html(data.x3d_creation_method);
 
         //glTF

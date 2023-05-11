@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    //Load all models into html ready to switch between
     $.getJSON("index.php/apiGetAllDrinkModelInfo", function(data) {
         $("#model_cocacola").attr('url', data[0].x3d_model);
         $("#model_dietcoke").attr('url', data[1].x3d_model);

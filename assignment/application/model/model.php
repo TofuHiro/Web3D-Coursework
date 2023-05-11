@@ -133,6 +133,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
+    //Background urls
     function dbCreateBackgroundsTable() {
         try {
             $this->dbhandle->exec("CREATE TABLE Backgrounds 
@@ -225,7 +226,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
-    //Layout for about block for each drinks
+    //Button types
     function dbInsertDrinkButton() {
         try {
             $this->dbhandle->exec(
@@ -254,6 +255,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
+    //About info for drinks
     function dbInsertDrinkAboutInfo() {
         try {
             $this->dbhandle->exec(
@@ -282,6 +284,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
+    //Image info
     function dbInsertDrinkImageInfo() {
         try {
             $this->dbhandle->exec(
@@ -310,6 +313,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
+    //Model info
     function dbInsertDrinkModelInfo() {
         try {
             $this->dbhandle->exec(
@@ -338,6 +342,7 @@ class Model {
         }
         $this->dbhandle = NULL;
     }
+    //Background urls
     function dbInsertBackgrounds() {
         try {
             $this->dbhandle->exec(
@@ -360,7 +365,7 @@ class Model {
 
     //-----Select-----
 
-    //Get specific drink layout 
+    //Get specific drink info 
     function dbGetDrinkInfo($drink, $toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Info WHERE drink = "'. $drink . '"';
@@ -424,6 +429,7 @@ class Model {
         }
         return $result;
     }
+    //Get specific image info
     function dbGetDrinkImageInfo($drink, $toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Image_Info WHERE drink = "'. $drink . '"';
@@ -443,6 +449,7 @@ class Model {
         }
         return $result;
     }
+    //Get specific model info
     function dbGetDrinkModelInfo($drink, $toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Model WHERE drink = "'. $drink . '"';
@@ -518,7 +525,7 @@ class Model {
         }
         return $result;
     }
-    //Get all drink about layout
+    //Get all button types
     function dbGetAllDrinkButton($toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Button';
@@ -564,6 +571,7 @@ class Model {
         }
         return $result;
     }
+    //Get all image info
     function dbGetAllDrinkImageInfo($toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Image_Info';
@@ -586,6 +594,7 @@ class Model {
         }
         return $result;
     }
+    //Get all model info
     function dbGetAllDrinkModelInfo($toJSON) {
         try {
             $sql = 'SELECT * FROM Drink_Model';
@@ -613,6 +622,7 @@ class Model {
         }
         return $result;
     }
+    //Get background urls
     function dbGetBackgrounds($toJSON) {
         try {
             $sql = 'SELECT * FROM Backgrounds';
@@ -728,8 +738,8 @@ class Model {
             SET info_text = 'Testtesttest' "."
             WHERE drink = 'Sprite';");
             //UPDATE {Table name}
-            //SET {field name}
-            //WHERE {primary key} = {value};
+            //SET {column name} = {value}
+            //WHERE {primary key} = {key};
         }
         catch (PDOException $e) {
             print new Exception($e->getMessage());

@@ -19,10 +19,11 @@ function changeView(view) {
 var current_mode = 0;
 function changeRender(mode) {
     var e = document.getElementById('x3d');
+    //Keep switching till matching modes
     while(current_mode != mode) {
         e.runtime.togglePoints(true);
         current_mode++;
-
+        //Loop around
         if (current_mode > 2) {
             current_mode = 0;
         }
@@ -62,6 +63,7 @@ function swapBackground(index) {
     }
     else {   
         $.getJSON("index.php/apiGetBackgrounds", function(data) {
+            //-1 as first background element in select option is 1, not 0 ('none' is 0)
             viewer.setAttribute("skybox-image", data[index-1].bg_url);
         });
     }

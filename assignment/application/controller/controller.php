@@ -23,6 +23,7 @@ class Controller {
 
     //-----Create Tables-----
 
+    //Quick function to create all tables
     function apiCreateAllTables() {
         $this->model->dbCreateDrinkInfoTable();
         $this->model->openConnection();
@@ -41,7 +42,6 @@ class Controller {
         $data = "All tables successfully created";
         $this->load->view('viewMessage', $data);
     }
-
     function apiCreateDrinkInfoTable() {
         $data = $this->model->dbCreateDrinkInfoTable();
         $this->load->view('viewMessage', $data);
@@ -74,6 +74,7 @@ class Controller {
 
     //-----Insert Into Tables-----
 
+    //Quick function to insert all data
     function apiInsertAll() {
         $this->model->dbInsertDrinkInfo();
         $this->model->openConnection();
@@ -92,7 +93,6 @@ class Controller {
         $data = "All data successfully inserted";
         $this->load->view('viewMessage', $data);
     }
-
     function apiInsertDrinkInfo() {
         $data = $this->model->dbInsertDrinkInfo();
         $this->load->view('viewMessage', $data);
@@ -149,7 +149,7 @@ class Controller {
         $this->load->view('viewBackgrounds', $backgrounds_data);
     }
 
-    //Returns all drink info
+    //Returns all info
     function apiGetAllDrinkInfo() {
         $data = $this->model->dbGetAllDrinkInfo(true);
         echo $data;

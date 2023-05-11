@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     //Drink Selection template
     var selection_block = "";
     selection_block += "<a href='#' class='{0} drink_button'>";
@@ -30,7 +29,7 @@ $(document).ready(function() {
     })).done(function() {
     //'$.when' Ensures formatting AFTER all JSON objects set/AJAX calls done
 
-    //Copy template and format/fill in text
+    //Copy template and format/fill in text, then assign html
     var selection_cola = selection_block.format(
         drinkButtonJson[0].button_type, 
         drinkInfoJson[0].image_url, 

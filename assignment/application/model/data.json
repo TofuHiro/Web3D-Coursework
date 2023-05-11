@@ -9,6 +9,14 @@
     
     "statement_originality": "These web pages are submitted as part requirement for the degree of Games and Multimedia Environments BSc at the University of Sussex. They are the product of my own labour except where indicated in the web page content. These web pages or contents may be freely copied and distributed provided the source is acknowledged",
     
+    "github_links": [{
+        "text": "Main Repo: ", 
+        "url": "https://github.com/Phukienbich/Web3D"
+    },{
+        "text": "Models (X3D/.x3d, glTF/.glb): ", 
+        "url": "https://github.com/Phukienbich/Web3D/tree/main/assignment/assets/models"
+    }],
+
     "references": [{
         "text": "Parallax Scroll by Rellax. Available at: ", 
         "url": "https://dixonandmoe.com/rellax/"
@@ -33,5 +41,8 @@
     },{
         "text": "Brown Photostudio 02 by Sergej Majboroda (2022). Available at: ", 
         "url": "https://polyhaven.com/a/brown_photostudio_02"
+     },{
+        "text": "HD Red Neon Coca Cola Logo PNG by CITYPNG. Available at: ", 
+        "url": "https://www.citypng.com/photo/13700/hd-red-neon-coca-cola-logo-png"
     }]
 }

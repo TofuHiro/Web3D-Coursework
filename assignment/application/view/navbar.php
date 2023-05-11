@@ -29,22 +29,26 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <!-- Links -->
             <ul class="navbar-nav ms-auto">
+              <!-- Dark Mode Switch -->
               <li class="nav-item">
                 <div class="form-check form-switch m-2">
                   <input onclick="toggleDarkMode(checked)" class="form-check-input" type="checkbox" role="switch" id="dark_mode_switch">
                   <label for="dark_mode_switch">Dark Mode</label>
                 </div>
               </li>
+              <!-- Home -->
               <li class="nav-item">
                 <a class="home_button nav-link" href="#">
                   Home
                 </a>
               </li>
+              <!-- About -->
               <li class="nav-item">
                 <a class="home_button nav-link" href="#about">
                   About
                 </a>
               </li>  
+              <!-- Drink Selection -->
               <li class="nav-item">
                 <a class="nav-link" role="button" data-bs-toggle="collapse" href="#collapseDrinks">
                   Drinks

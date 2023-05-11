@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     //-----Drink About Template-----
     var about_block = "";
     about_block += "<div class='drink_container row'>";
