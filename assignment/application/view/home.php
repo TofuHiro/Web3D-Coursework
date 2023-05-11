@@ -290,7 +290,7 @@
                 <p id="time_scale_label"></p>
                 <input type="range" class="form-range" min="-2" max="2" value="1" step="0.25" id="time_scale_slider">
                 <!-- Animation --> 
-                <button onclick="playAnimation()" class="btn btn-success d-block m-1">Play Animation</button>
+                <a href="#" onclick="playAnimation()" class="btn btn-success d-block m-1">Play Animation</a>
                 <!-- To X3D Model --> 
                 <a href="#" class="x3d_button btn btn-danger m-1">To X3D Model</a>
                 <!-- Switches to Image view --> 
